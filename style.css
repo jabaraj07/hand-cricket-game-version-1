@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main-div{
+    display: flex;
+    justify-content: center;
+    /* text-align: center; */
+    align-items: center;
+}
+.box1{
+    /* background-color: red; */
+    width: 100px;
+    height: 60px;
+    margin: 20px 0px;
+    border: 5px solid black;
+    text-align: center;
+    padding-top:40px;
+    font-size: 35px;
+}
+.box2{
+    /* background-color: yellow; */
+    width: 100px;
+    height: 60px;
+    margin: 20px 10px;
+    padding-top:40px;
+    font-size: 35px;
+    text-align: center;
+    border: 5px solid black;
+}
+#btn{
+    display: flex;
+    justify-content: center;
+}
+.result-div{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+#resetbtn{
+    margin-left: 10px;
+    display: none;
+}
+#generateButton{
+    display: inline-block;  
+    width: 100px;
+    padding: 15px;
+    font-size: 20px; 
+}
+#scoreTable{
+    border-collapse: collapse;
+    border: 2px solid black;
+}
+#scoreTable > thead >tr > th{
+    border-collapse: collapse;
+    border: 2px solid black;
+    width: 150px;
+}
+#scoreTable > tbody >tr > td{
+    border-collapse: collapse;
+    border: 2px solid black;
+}
+.table-div{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+#final-result{
+    display: flex;
+    justify-content: center;
+}

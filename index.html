@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hand Cricket Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-div">
+        <div class="box1" id="box1">YOU</div>
+        <div class="box2" id="box2">OPP</div>
+    </div>
+    <div id="btn">
+        <button id="generateButton" onclick="generate()">PLAY</button>
+        <button id="resetbtn" onclick="reset()">RESET</button>
+    </div>
+
+
+    <div class="result-div"><p>RESULT : <span id="result"></span></p></div>
+
+    <div class="table-div">
+        <table id="scoreTable">
+            <thead>
+                <tr>
+                    <th>BATSMAN SCORE</th>
+                    <th>BALLS</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+    <p><span id="final-result"></span></p>
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
